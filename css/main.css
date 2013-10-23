@@ -21,32 +21,34 @@ a:hover {
   bottom: 9px;
   z-index: 1; }
 
-.logo-wrapper {
-  width: 22em;
-  margin: 2em auto 4em; }
-
 .navigation-wrapper {
-  text-align: center;
-  margin-bottom: 1em; }
+  width: 960px;
+  margin: 1em auto;
+}
+
+.logo-wrapper { display: inline-block; vertical-align: middle; }
+.logo-wrapper > img { width: 200px; height: auto; }
 
 .navigation {
   list-style: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  display: inline-block;
+}
   .navigation li {
     display: inline-block;
     *display: inline;
     zoom: 1; }
     .navigation li a {
       font-family: 'Lobster', 'Georgia', serif;
-      font-size: 30px;
-      line-height: 30px;
-      margin: 0 1em;
-      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      margin: 0 0.5em;
+      font-weight: normal;
       color: #000;
       border: 3px dashed #940c5d;
       border-radius: 30px;
-      padding: 0.5em;
+      padding: 0.5em 1em;
       position: relative;
       background-color: #ee32a2;
       box-shadow: 0 0 3px #940c5d inset; }
@@ -56,7 +58,7 @@ a:hover {
       .navigation li a:hover:before {
         content: "➸ ";
         position: absolute;
-        left: -35px; }
+        left: -25px; }
     .navigation li .blue {
       background-color: #3c9ecf;
       border: 3px dashed #267399; }
@@ -83,13 +85,18 @@ a:hover {
         border-color: #da8af1; }
 
 .intro-wrapper {
-  width: 100%;
-  padding: 1em 0; }
+  width: 960px;
+  margin: 0 auto;
+}
 
 .intro-text {
-  width: 600px;
-  margin: 0 auto;
-  text-align: center; }
+  width: 400px;
+}
+
+.intro-text > h2 {
+  font-size: 26px;
+  line-height: 30px;
+}
 
 .splatter {
   position: absolute;
