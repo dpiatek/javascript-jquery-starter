@@ -91,6 +91,14 @@ a:hover {
 
 .intro-text {
   width: 400px;
+  display: inline-block;
+}
+
+.news {
+  display: inline-block;
+  vertical-align: top;
+  width: 530px;
+  margin-left: 20px;
 }
 
 .intro-text > h2 {
